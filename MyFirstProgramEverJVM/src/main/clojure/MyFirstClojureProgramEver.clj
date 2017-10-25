@@ -1,3 +1,5 @@
+; Use http://app.klipse.tech/ to play with the code
+
 (defn asleep
   ([hour] (message hour "asleep")))
 
