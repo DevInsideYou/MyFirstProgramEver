@@ -7,12 +7,12 @@ def awake(hour):
 def message(hour, state):
   return "It's {} o'clock, so I'm {}".format(hour, state)
 
-isWorkDay = True
+isWorkday = True
 
 currentHour = 0 # 12am
 
 while currentHour <= 23:
-  if isWorkDay:
+  if isWorkday:
     if 7 <= currentHour < 23:
       print(awake(currentHour))
     else:

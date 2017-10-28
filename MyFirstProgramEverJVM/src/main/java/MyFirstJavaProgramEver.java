@@ -12,7 +12,7 @@ public class MyFirstJavaProgramEver {
   }
 
   public static void main(String[] args) {
-    boolean isWorkday = true;
+    final boolean isWorkday = true;
 
     int currentHour = 0; // 12am
 

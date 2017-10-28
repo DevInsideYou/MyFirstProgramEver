@@ -10,12 +10,12 @@ def message(hour, state)
   return "It's #{hour} o'clock, so I'm #{state}"
 end
 
-isWorkDay = true
+isWorkday = true
 
 currentHour = 0 # 12am
 
 while currentHour <= 23
-  if isWorkDay
+  if isWorkday
     if currentHour < 7
       puts asleep currentHour
     elsif currentHour < 23

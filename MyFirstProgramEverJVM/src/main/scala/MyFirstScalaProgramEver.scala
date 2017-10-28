@@ -1,11 +1,11 @@
 object MyFirstScalaProgramEver {
-  def asleep(hour: Int): String =
+  private def asleep(hour: Int): String =
     message(hour, "asleep")
 
-  def awake(hour: Int): String =
+  private def awake(hour: Int): String =
     message(hour, "awake")
 
-  def message(hour: Int, state: String): String =
+  private def message(hour: Int, state: String): String =
     s"It's $hour o'clock, so I'm $state"
 
   def main(args: Array[String]): Unit = {
