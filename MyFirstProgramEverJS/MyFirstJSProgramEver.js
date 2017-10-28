@@ -1,5 +1,7 @@
 // jshint esversion: 6
 
+// Use https://repl.it/languages/javascript to play with the code
+
 function asleep(hour) {
   return message(hour, "asleep");
 }

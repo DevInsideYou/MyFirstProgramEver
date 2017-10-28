@@ -1,3 +1,5 @@
+// Use https://www.compilejava.net/ to play with the code
+
 public class MyFirstJavaProgramEver {
   private static String asleep(int hour) {
     return message(hour, "asleep");

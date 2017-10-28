@@ -1,6 +1,8 @@
 #!/usr/bin/env stack
 -- stack --install-ghc runghc
 
+-- Use https://repl.it/languages/haskell to play with the code
+
 asleep :: Int -> String
 asleep hour = message hour "asleep"
 

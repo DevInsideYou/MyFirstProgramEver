@@ -1,3 +1,5 @@
+// Use https://scastie.scala-lang.org/ to play with the code
+
 object MyFirstScalaProgramEver {
   private def asleep(hour: Int): String =
     message(hour, "asleep")

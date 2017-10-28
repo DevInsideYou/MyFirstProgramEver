@@ -1,3 +1,5 @@
+// Use https://try.kotlinlang.org to play with the code
+
 fun awake(hour: Int): String =
   message(hour, "awake")
 

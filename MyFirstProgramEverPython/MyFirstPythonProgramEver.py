@@ -1,3 +1,5 @@
+# Use https://repl.it/languages/python to play with the code
+
 def asleep(hour):
   return message(hour, "asleep")
 

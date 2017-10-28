@@ -1,3 +1,5 @@
+# Try https://repl.it/languages/ruby to play with the code
+
 def asleep(hour)
   return message(hour, "asleep")
 end
